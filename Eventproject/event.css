@@ -1,0 +1,16 @@
+#emoji
+{
+    background-color: rgb(32, 155, 192);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    font-size: 6rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+body
+{
+    margin: 0;
+}

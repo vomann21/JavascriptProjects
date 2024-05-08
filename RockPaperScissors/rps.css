@@ -1,0 +1,56 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    font-size: 90px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(80, 166, 245);
+    margin: 5px;
+    transition: font-size 2s, transform 2s;
+}
+
+
+button:hover{
+    background-color: rgb(22, 38, 56);
+}
+
+button:active{
+    font-size: 200px;
+    transform: rotate(180deg)
+}
+
+#options{
+   margin: 50px;
+}
+
+#playerDisplay{
+    font-size: 2rem;
+}
+
+#computerDisplay{
+    font-size: 2rem;
+}
+
+.win{
+   color: green;
+   transition: color 2s;
+}
+
+.lose{
+    color: red;
+    transition: color 2s;
+}
+
+.tie{
+    color: yellow;
+    transition:color 2s;
+}
+
+#result{
+    font-size: 4rem;
+}

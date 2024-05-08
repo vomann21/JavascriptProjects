@@ -1,0 +1,40 @@
+.tempConversionForm{
+    text-align: center;
+    border: 2px solid rgb(197, 188, 188);
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px lightblue;
+    max-width: 50%;
+    margin: auto;
+}
+
+p{
+    display: inline;
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.res{
+    font-size: 1.1rem;
+    color: red;
+}
+
+.ans{
+    font-size: 1.1rem;
+    color: green;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button{
+    margin-top: 20px;
+    font-size: 1.1em;
+    background-color: red;
+    padding: 2px 2px 2px 2px;
+}
